@@ -43,6 +43,11 @@ export const metadata: Metadata = {
     shortcut: '/favicon.ico',
     apple: '/icon.png',
   },
+  verification: {
+    other: {
+      'naver-site-verification': '228aa80bbb2d87d4f14e4a828775fdf4426e54f0',
+    },
+  },
   openGraph: {
     title: '스마일설비 - 하수구막힘/누수탐지 해결사',
     description:
