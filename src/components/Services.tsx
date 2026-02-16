@@ -70,11 +70,11 @@ export const Services: React.FC = () => {
               {/* Subtle border for premium feel */}
               <div className="absolute inset-0 border border-white/10 rounded-[1.5rem] pointer-events-none"></div>
 
-              <div className="absolute bottom-0 left-0 p-8 w-full translate-y-2 transition-transform duration-500 group-hover:translate-y-0">
+              <div className="absolute bottom-0 left-0 p-8 w-full">
                 <h3 className="text-2xl font-bold text-white mb-3 shadow-sm tracking-tight">
                   {service.title}
                 </h3>
-                <p className="text-gray-300 text-sm mb-8 leading-relaxed line-clamp-2 opacity-90 group-hover:opacity-100 group-hover:line-clamp-none transition-all duration-500">
+                <p className="text-gray-300 text-sm mb-8 leading-relaxed">
                   {service.desc}
                 </p>
                 <a
