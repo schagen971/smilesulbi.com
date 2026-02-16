@@ -9,7 +9,7 @@ const notoSansKr = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.smilesulbi.com'),
+  metadataBase: new URL('https://smilesulbi.com'),
   title: {
     default: '스마일설비 - 김포/인천/일산 하수구막힘 누수탐지 전문',
     template: '%s | 스마일설비',
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: '스마일설비 - 하수구막힘/누수탐지 해결사',
     description:
       '타 업체가 포기한 현장도 해결! 못 뚫으면 0원. 24시간 긴급출동 서비스.',
-    url: 'https://www.smilesulbi.com',
+    url: 'https://smilesulbi.com',
     siteName: '스마일설비',
     images: [
       {
