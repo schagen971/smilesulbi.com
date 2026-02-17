@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
               <h4 className="font-semibold mb-6">Company</h4>
               <ul className="space-y-4 text-gray-400 text-sm">
                 <li>상호명: 하수구막힘</li>
-                <li>대표: 김성진</li>
+                <li>대표: 김경수</li>
                 <li>사업자등록번호: 467-08-02089</li>
               </ul>
             </div>
