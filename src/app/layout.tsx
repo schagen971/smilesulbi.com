@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Noto_Sans_KR } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 
 const notoSansKr = Noto_Sans_KR({
@@ -87,6 +88,18 @@ export default function RootLayout({
     <html lang="ko" suppressHydrationWarning>
       <body className={`${notoSansKr.variable} font-sans antialiased`}>
         {children}
+
+        {/* LOGGER(TM) TRACKING SCRIPT V.40 FOR logger.co.kr / 115355 */}
+        <Script id="logger-config" strategy="afterInteractive">
+          {`var _TRK_LID="115355";var _L_TD="ssl.logger.co.kr";var _TRK_CDMN=".smilesulbi.com";`}
+        </Script>
+        <Script id="logger-loader" strategy="afterInteractive">
+          {`var _CDN_DOMAIN=location.protocol=="https:"?"https://fs.bizspring.net":"http://fs.bizspring.net";(function(b,s){var f=b.getElementsByTagName(s)[0],j=b.createElement(s);j.async=true;j.src="//fs.bizspring.net/fs4/bstrk.1.js";f.parentNode.insertBefore(j,f);})(document,"script");`}
+        </Script>
+        <noscript>
+          <img alt="Logger Script" width={1} height={1} src="https://ssl.logger.co.kr/tracker.1.tsp?u=115355&js=N" />
+        </noscript>
+        {/* END OF LOGGER TRACKING SCRIPT */}
       </body>
     </html>
   );
